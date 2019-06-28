@@ -5,6 +5,8 @@ from textwrap import dedent
 
 layout = html.Div(className='gallery', children=[
     dcc.Markdown(dedent('''
-    ## The Dash App Gallery has moved to [https://dash-gallery.plotly.host/Portal/](https://dash-gallery.plotly.host/Portal/)
+    ## The Dash App Gallery has moved!
+
+    It is now at [https://dash-gallery.plotly.host/Portal/](https://dash-gallery.plotly.host/Portal/)
     '''))
 ])
