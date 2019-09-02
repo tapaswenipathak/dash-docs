@@ -34,6 +34,15 @@ on Windows systems `waitress` can be a replacement for `gunicorn`
 5. open http://127.0.0.1:8000 in your browser
 
 
+### Troubleshooting
+
+- Do not name file as dash.py
+- There is difference pip and corresponding Python version. You can't use pip3
+	and Python 2.7. Make sure that pip is using the same instance of Python.
+- Always work in virtual environment. In Python you should not work w/o virtual
+	environment. You can use `virtualenv` for that.
+- Let us know frequence problems that you create when contributing with plotly.
+
 ### Contributing
 
 PRs accepted! The Dash user guide is itself a Dash app. Each file in `tutorial` represents a "chapter" of the docs.
